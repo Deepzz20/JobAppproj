@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar1 {
+    padding: 1rem;
+    background-image: url('download.jpeg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.navbar1 button {
+    border: none;
+    background: none;
+}
+
+.navbar1 i {
+    color: white;
+    font-size: 30px;
+}
+
+#navbar {
+    position: fixed;
+    top: 0;
+    left: -200px;
+    /* Start the navbar off-screen */
+    width: 200px;
+    height: 100%;
+    background-image: url('download.jpeg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #fff;
+    transition: left 0.3s ease-in-out;
+    z-index: 1000;
+}
+
+#navbar.open {
+    left: 0;
+    /* Move the navbar onto the screen */
+}
+
+#navbar ul {
+    list-style: none;
+    margin: 0;
+    padding-top: 3rem;
+}
+
+#navbar li {
+    margin: 10px 0;
+    font-size: 30px;
+}
+
+#navbar li a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#navbar li a:hover {
+    background-color: #666;
+}
+
+#navbar button {
+    background: none;
+    border: none;
+}
+
+#navbar i {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+    cursor: move;
+}
+
+#container {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    width: 85%;
+    height: 65vh;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1rem;
+    overflow-y: scroll;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+#container .cont1 {
+    border: solid 2px white;
+    padding: 1.5rem 1rem;
+    margin: 1.5rem;
+    font-size: 20px;
+    color: white;
+    width: 25%;
+    border-radius: 1rem;
+    background: linear-gradient(to right, #520647, rgb(56, 171, 191));
+}
