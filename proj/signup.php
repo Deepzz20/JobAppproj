@@ -21,7 +21,7 @@
                 <label for="option2">Applicants</label><br>
             </div>
             <div class="input-area">
-                <i class="icon fas fa-envelope"></i>
+                <i class="fas fa-user-alt"></i>
                 <input type="text" placeholder="Name" id="name" name="name"><br>
             </div>
             <div class="input-area">
@@ -29,15 +29,15 @@
                 <input type="email" placeholder="Email ID" id="email" name="email"><br>
             </div>
             <div class="input-area">
-                <i class="icon fas fa-envelope"></i>
+                <i class="fa fa-phone"></i>
                 <input type="number" placeholder="Phone number" id="num" name="num"><br>
             </div>
             <div class="input-area">
-                <i class="icon fas fa-envelope"></i>
+                <i class="fas fa-calendar-alt"></i>
                 <input type="date" placeholder="DOB" id="dob" name="dob"><br>
             </div>
             <div class="input-area">
-                <i class="icon fas fa-envelope"></i>
+                <i class="fa-solid fa-hashtag"></i>
                 <input type="number" placeholder="Age" id="age" name="age"><br>
             </div>
             <div class="input-area">
